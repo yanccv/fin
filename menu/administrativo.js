@@ -1,0 +1,15 @@
+﻿stm_bm(["menu408e",980,"","blank.gif",0,"","",1,0,250,0,1000,1,0,0,"","100%",0,0,1,2,"default","hand","",1,25],this);
+stm_bp("p0",[0,4,0,0,2,0,0,0,100,"",-2,"",-2,50,0,0,"#999999","transparent","",3,0,0,"#000000"]);
+stm_ai("p0i0",[0,"Inicio","","",-1,-1,0,"panel.php","_self","","","","",0,0,0,"","",0,0,0,1,1,"#FFFFFF",0,"#0098DB",0,"","",3,3,1,1,"#0098DB","#0098DB","#0098DB","#FFFFFF","bold 8pt Verdana","bold 8pt Verdana",0,0,"","","","",0,0,0],102,26);
+stm_aix("p0i1","p0i0",[0,"Areas","","",-1,-1,0,""],102,26);
+stm_bpx("p1","p0",[1,4,0,0,0]);
+stm_aix("p1i0","p0i0",[0,"Nueva","","",-1,-1,0,"articulos.php"],102,26);
+stm_aix("p1i1","p0i0",[0,"Listado","","",-1,-1,0,"listados.php?tipolis=areas&page=areas"],102,26);
+stm_ep();
+stm_aix("p0i2","p0i1",[0,"Franquicia"],102,26);
+stm_aix("p0i3","p0i1",[0,"Notas"],102,26);
+stm_aix("p0i4","p0i1",[0,"Conexión"],102,26);
+stm_aix("p0i5","p0i1",[0,"Contacto"],102,26);
+stm_aix("p0i6","p0i1",[0,"Clasificados"],102,26);
+stm_ep();
+stm_em();

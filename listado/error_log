@@ -1,0 +1,326 @@
+[28-Jun-2015 13:21:03 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[28-Jun-2015 13:21:03 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[28-Jun-2015 13:21:03 America/Caracas] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[28-Jun-2015 13:21:03 America/Caracas] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[28-Jun-2015 13:42:57 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[28-Jun-2015 13:42:57 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[28-Jun-2015 13:42:57 America/Caracas] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[28-Jun-2015 13:42:57 America/Caracas] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[28-Jun-2015 22:06:17 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[28-Jun-2015 22:06:17 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[28-Jun-2015 22:06:17 America/Caracas] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[28-Jun-2015 22:06:17 America/Caracas] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[28-Jun-2015 22:20:27 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[28-Jun-2015 22:20:27 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[28-Jun-2015 22:20:27 America/Caracas] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[28-Jun-2015 22:20:27 America/Caracas] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[29-Jun-2015 05:30:41 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[29-Jun-2015 05:30:41 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[29-Jun-2015 05:30:41 America/Caracas] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[29-Jun-2015 05:30:41 America/Caracas] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[29-Jun-2015 08:16:04 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[29-Jun-2015 08:16:04 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[29-Jun-2015 08:16:04 America/Caracas] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[29-Jun-2015 08:16:04 America/Caracas] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[29-Jun-2015 18:30:50 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[29-Jun-2015 18:30:50 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[29-Jun-2015 18:30:50 America/Caracas] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[29-Jun-2015 18:30:50 America/Caracas] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[30-Jun-2015 00:40:12 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[30-Jun-2015 00:40:12 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[30-Jun-2015 00:40:12 America/Caracas] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[30-Jun-2015 00:40:12 America/Caracas] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[25-Sep-2015 09:19:29 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[25-Sep-2015 09:19:29 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[25-Sep-2015 09:19:29 America/Caracas] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[25-Sep-2015 09:19:29 America/Caracas] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[25-Sep-2015 09:24:16 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[25-Sep-2015 09:24:16 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[25-Sep-2015 09:24:16 America/Caracas] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[25-Sep-2015 09:24:16 America/Caracas] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[25-Sep-2015 21:25:15 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[25-Sep-2015 21:25:15 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[25-Sep-2015 21:25:15 America/Caracas] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[25-Sep-2015 21:25:15 America/Caracas] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[25-Sep-2015 21:26:56 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[25-Sep-2015 21:26:56 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[25-Sep-2015 21:26:56 America/Caracas] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[25-Sep-2015 21:26:56 America/Caracas] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[27-Sep-2015 09:01:52 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Sep-2015 09:01:52 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Sep-2015 09:01:52 America/Caracas] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Sep-2015 09:01:52 America/Caracas] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[28-Sep-2015 18:37:47 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[28-Sep-2015 18:37:47 America/Caracas] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[28-Sep-2015 18:37:47 America/Caracas] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[28-Sep-2015 18:37:47 America/Caracas] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[03-Jun-2016 23:58:40 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[03-Jun-2016 23:58:40 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[03-Jun-2016 23:58:40 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[03-Jun-2016 23:58:40 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[04-Jun-2016 03:23:50 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[04-Jun-2016 03:23:50 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[04-Jun-2016 03:23:50 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[04-Jun-2016 03:23:50 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[04-Jun-2016 08:33:27 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[04-Jun-2016 08:33:27 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[04-Jun-2016 08:33:27 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[04-Jun-2016 08:33:27 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[05-Jun-2016 08:47:02 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[05-Jun-2016 08:47:02 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[05-Jun-2016 08:47:02 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[05-Jun-2016 08:47:02 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[05-Jun-2016 10:56:12 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[05-Jun-2016 10:56:12 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[05-Jun-2016 10:56:12 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[05-Jun-2016 10:56:12 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[26-Aug-2016 15:08:05 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[26-Aug-2016 15:08:05 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[26-Aug-2016 15:08:05 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[26-Aug-2016 15:08:05 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[26-Aug-2016 23:22:32 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[26-Aug-2016 23:22:32 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[26-Aug-2016 23:22:32 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[26-Aug-2016 23:22:32 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[27-Aug-2016 00:38:19 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Aug-2016 00:38:19 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Aug-2016 00:38:19 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Aug-2016 00:38:19 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[27-Aug-2016 01:54:06 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Aug-2016 01:54:06 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Aug-2016 01:54:06 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Aug-2016 01:54:06 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[27-Aug-2016 08:13:01 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Aug-2016 08:13:01 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Aug-2016 08:13:01 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Aug-2016 08:13:01 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[27-Aug-2016 12:00:23 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Aug-2016 12:00:23 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Aug-2016 12:00:23 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Aug-2016 12:00:23 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[27-Aug-2016 17:03:30 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Aug-2016 17:03:30 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Aug-2016 17:03:30 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Aug-2016 17:03:30 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[27-Aug-2016 20:50:55 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Aug-2016 20:50:55 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Aug-2016 20:50:55 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Aug-2016 20:50:55 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[26-Oct-2016 09:27:22 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[26-Oct-2016 09:27:22 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[26-Oct-2016 09:27:22 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[26-Oct-2016 09:27:22 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[26-Oct-2016 19:17:30 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[26-Oct-2016 19:17:30 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[26-Oct-2016 19:17:30 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[26-Oct-2016 19:17:30 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[27-Oct-2016 00:07:08 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Oct-2016 00:07:08 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Oct-2016 00:07:08 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Oct-2016 00:07:08 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[27-Oct-2016 02:12:52 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Oct-2016 02:12:52 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Oct-2016 02:12:52 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Oct-2016 02:12:52 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[27-Oct-2016 07:35:38 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Oct-2016 07:35:38 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Oct-2016 07:35:38 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Oct-2016 07:35:38 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[27-Oct-2016 07:36:04 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Oct-2016 07:36:04 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Oct-2016 07:36:04 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[27-Oct-2016 07:36:04 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[27-Oct-2016 13:14:02 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Oct-2016 13:14:02 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Oct-2016 13:14:02 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Oct-2016 13:14:02 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[27-Oct-2016 19:57:54 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Oct-2016 19:57:54 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Oct-2016 19:57:54 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[27-Oct-2016 19:57:54 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[29-Oct-2016 05:14:53 UTC] PHP Notice:  Undefined variable: msg in /home/fondoint/public_html/listado/deletelis.php on line 27
+[09-Jan-2017 20:22:25 UTC] PHP Notice:  Undefined index: tabla in /home/fondoint/public_html/listado/deletelis.php on line 9
+[09-Jan-2017 20:22:25 UTC] PHP Notice:  Undefined index: tabla in /home/fondoint/public_html/listado/deletelis.php on line 25
+[09-Jan-2017 20:22:25 UTC] PHP Notice:  Undefined index: campo in /home/fondoint/public_html/listado/deletelis.php on line 25
+[09-Jan-2017 20:22:25 UTC] PHP Notice:  Undefined index: valor in /home/fondoint/public_html/listado/deletelis.php on line 25
+[09-Jan-2017 20:22:53 UTC] PHP Notice:  Undefined index: fid in /home/fondoint/public_html/listado/procelis.php on line 10
+[09-Jan-2017 20:22:53 UTC] PHP Notice:  Undefined index: nro in /home/fondoint/public_html/listado/procelis.php on line 11
+[09-Jan-2017 20:22:53 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/fondoint/public_html/listado/php/parametros.php on line 2
+[09-Jan-2017 20:22:53 UTC] PHP Notice:  Undefined variable: campos in /home/fondoint/public_html/listado/procelis.php on line 37
+[09-Jan-2017 20:22:53 UTC] PHP Notice:  Undefined variable: titulos in /home/fondoint/public_html/listado/procelis.php on line 37
+[09-Jan-2017 20:22:53 UTC] PHP Notice:  Undefined variable: tabla in /home/fondoint/public_html/listado/procelis.php on line 37
+[09-Jan-2017 20:22:53 UTC] PHP Notice:  Undefined variable: filtro in /home/fondoint/public_html/listado/procelis.php on line 37
+[09-Jan-2017 20:22:53 UTC] PHP Notice:  Undefined variable: orden in /home/fondoint/public_html/listado/procelis.php on line 37
+[09-Jan-2017 20:22:53 UTC] PHP Notice:  Undefined variable: limit in /home/fondoint/public_html/listado/procelis.php on line 37
+[09-Jan-2017 20:23:20 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[09-Jan-2017 20:23:22 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[09-Jan-2017 20:23:22 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[09-Jan-2017 20:23:22 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[09-Jan-2017 20:23:35 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[09-Jan-2017 20:23:36 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[09-Jan-2017 20:23:36 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[09-Jan-2017 20:23:36 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[10-Jan-2017 04:14:58 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[10-Jan-2017 04:14:58 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[10-Jan-2017 04:14:58 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[10-Jan-2017 04:14:58 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[10-Jan-2017 04:15:09 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[10-Jan-2017 04:15:09 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[10-Jan-2017 04:15:09 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[10-Jan-2017 04:15:09 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[10-Jan-2017 11:13:31 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[10-Jan-2017 11:13:31 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[10-Jan-2017 11:13:31 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[10-Jan-2017 11:13:31 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[10-Jan-2017 11:13:46 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[10-Jan-2017 11:13:46 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[10-Jan-2017 11:13:46 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[10-Jan-2017 11:13:46 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[10-Jan-2017 19:54:14 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[10-Jan-2017 19:54:14 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[10-Jan-2017 19:54:14 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[10-Jan-2017 19:54:14 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[10-Jan-2017 19:54:24 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[10-Jan-2017 19:54:26 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[10-Jan-2017 19:54:26 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[10-Jan-2017 19:54:26 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[12-Jan-2017 03:37:02 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/fondoint/public_html/listado/php/parametros.php on line 2
+[12-Jan-2017 03:37:02 UTC] PHP Notice:  Undefined variable: filtro in /home/fondoint/public_html/listado/procelis.php on line 37
+[12-Jan-2017 03:37:02 UTC] PHP Notice:  Undefined variable: f in /home/fondoint/public_html/includes/listados.php on line 86
+[12-Jan-2017 03:37:02 UTC] PHP Notice:  Undefined variable: f in /home/fondoint/public_html/includes/listados.php on line 86
+[12-Jan-2017 03:37:02 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:02 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:02 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:02 UTC] PHP Notice:  Undefined variable: wfiltro in /home/fondoint/public_html/includes/listados.php on line 244
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/fondoint/public_html/listado/php/parametros.php on line 2
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: filtro in /home/fondoint/public_html/listado/procelis.php on line 37
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: f in /home/fondoint/public_html/includes/listados.php on line 86
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: f in /home/fondoint/public_html/includes/listados.php on line 86
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: enc in /home/fondoint/public_html/includes/listados.php on line 162
+[12-Jan-2017 03:37:07 UTC] PHP Notice:  Undefined variable: wfiltro in /home/fondoint/public_html/includes/listados.php on line 244
+[13-Jan-2017 12:09:25 UTC] PHP Notice:  Undefined index: fid in /home/fondoint/public_html/listado/procelis.php on line 10
+[13-Jan-2017 12:09:25 UTC] PHP Notice:  Undefined index: nro in /home/fondoint/public_html/listado/procelis.php on line 11
+[13-Jan-2017 12:09:25 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/fondoint/public_html/listado/php/parametros.php on line 2
+[13-Jan-2017 12:09:25 UTC] PHP Notice:  Undefined variable: campos in /home/fondoint/public_html/listado/procelis.php on line 37
+[13-Jan-2017 12:09:25 UTC] PHP Notice:  Undefined variable: titulos in /home/fondoint/public_html/listado/procelis.php on line 37
+[13-Jan-2017 12:09:25 UTC] PHP Notice:  Undefined variable: tabla in /home/fondoint/public_html/listado/procelis.php on line 37
+[13-Jan-2017 12:09:25 UTC] PHP Notice:  Undefined variable: filtro in /home/fondoint/public_html/listado/procelis.php on line 37
+[13-Jan-2017 12:09:25 UTC] PHP Notice:  Undefined variable: orden in /home/fondoint/public_html/listado/procelis.php on line 37
+[13-Jan-2017 12:09:25 UTC] PHP Notice:  Undefined variable: limit in /home/fondoint/public_html/listado/procelis.php on line 37
+[13-Jan-2017 13:25:12 UTC] PHP Notice:  Undefined index: tabla in /home/fondoint/public_html/listado/deletelis.php on line 9
+[13-Jan-2017 13:25:12 UTC] PHP Notice:  Undefined index: tabla in /home/fondoint/public_html/listado/deletelis.php on line 25
+[13-Jan-2017 13:25:12 UTC] PHP Notice:  Undefined index: campo in /home/fondoint/public_html/listado/deletelis.php on line 25
+[13-Jan-2017 13:25:12 UTC] PHP Notice:  Undefined index: valor in /home/fondoint/public_html/listado/deletelis.php on line 25
+[13-Jan-2017 14:42:08 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[13-Jan-2017 14:42:08 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[13-Jan-2017 14:42:08 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[13-Jan-2017 14:42:08 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[13-Jan-2017 15:57:01 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[13-Jan-2017 15:57:01 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[13-Jan-2017 15:57:01 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[13-Jan-2017 15:57:01 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[13-Jan-2017 20:59:55 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[13-Jan-2017 20:59:55 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[13-Jan-2017 20:59:55 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[13-Jan-2017 20:59:55 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[14-Jan-2017 01:28:04 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[14-Jan-2017 01:28:04 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[14-Jan-2017 01:28:04 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[14-Jan-2017 01:28:04 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3
+[14-Jan-2017 03:59:37 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[14-Jan-2017 03:59:37 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_base.php on line 3
+[14-Jan-2017 03:59:37 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_base.php on line 3
+[14-Jan-2017 03:59:37 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_base.php on line 4
+[14-Jan-2017 05:15:25 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[14-Jan-2017 05:15:25 UTC] PHP Warning:  include(../includes/cl_lis.php): failed to open stream: No such file or directory in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[14-Jan-2017 05:15:25 UTC] PHP Warning:  include(): Failed opening '../includes/cl_lis.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/fondoint/public_html/listado/listados_bueno.php on line 2
+[14-Jan-2017 05:15:25 UTC] PHP Fatal error:  Class 'LISTA' not found in /home/fondoint/public_html/listado/listados_bueno.php on line 3

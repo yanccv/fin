@@ -1,0 +1,29 @@
+table { margin: auto; }
+.Tabla {
+    background-color:#D2F1FF;
+    border:1px solid #0098DB;
+    border-collapse:collapse;
+    color:#000000;
+    font:normal 12px verdana, arial, helvetica, sans-serif;
+    width: 95%;
+}
+
+.Tabla td, th {
+    padding:.2em;
+}
+
+.Tabla thead th{
+ background:#0098DB;
+ color:#FFFFFF;
+ text-transform:uppercase;
+}
+
+.Tabla tbody tr td {
+ border:1px dashed #0098DB;
+ color:#000000;
+}
+
+.Tabla tbody tr:hover {
+ background-color:#AAE6FF;
+ border:1px solid #0098DB;
+}

@@ -1,0 +1,36 @@
+/*CLASE PARA EL TITULO DEL LISTADO */
+#titlelistadoverde{
+    /*background-color: #CC0033;*/    font-weight: bold;    font-size: 14px; text-align: center; padding: 5px
+}
+
+
+/*CLASE PARA EL FORMULARIO DE BUSQUEDA LOS COLORES DE LOS TEXT Y DEMAS*/
+#formlistadoverde{   text-align:left;	width:auto;	left:50%;   }
+/*#formlistadoverde {   text-decoration: none;  font-size: 12px;  border:1px solid #309BAB;  background-color: #D1F1FE;  }*/
+#formlistadoverde .label{  font-size: 12px;  text-align: left;  font-weight: bold;  }
+
+/*CLASE PARA LA TABLA DEL LISTADO */
+#listadoverde{    border: 1px  solid #000000;   }
+#listadoverde caption{    /*background-color: #309BAB;*/    font-weight: bold;  }
+#listadoverde tr.titulo {    background-color: #BBBBBB;    font-weight: bold;    font-size: 12px;    height: 22px;  }
+#listadoverde tr.detalle0{    background-color: #DDDDDD;    }
+#listadoverde tr.detalle0:hover{    background-color: #CCCCCC;  }
+#listadoverde tr.detalle1{    background-color: #DDDDDD;    }
+#listadoverde tr.detalle1:hover{    background-color: #CCCCCC;  }
+#listadoverde td {    border-right: 1px solid #000000;    border-bottom: 1px solid #000000;    font-size: 11px; }
+
+/*CLASES PARA LA PAGINACION AL FINAL DEL LISTADO */
+.Plistadoverde {  font-size: 12px;  text-align: center; }
+.Pageslistadoverde{  /*border:  1px  solid #CCCCCC;*/   font-size: 12px;   /*background-color: #D1F1FE;*/ }
+#pagactuallistadoverde{  font-weight: bold; }
+/*
+#formlistadoverde input,textarea,select{
+    padding: 2px 10px 2px 10px;
+    border: 2px solid #000;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+*/

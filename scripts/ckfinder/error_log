@@ -1,0 +1,143 @@
+[14-Sep-2014 21:46:38] PHP Fatal error:  Call to undefined function  resolveurl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[18-Sep-2014 21:53:05] PHP Fatal error:  Call to undefined function  resolveurl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[20-Sep-2014 22:04:09] PHP Fatal error:  Call to undefined function  resolveurl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[20-Oct-2014 14:54:02] PHP Fatal error:  Call to undefined function  resolveurl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[21-Oct-2014 23:10:32] PHP Fatal error:  Call to undefined function  resolveurl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[02-Nov-2014 19:30:43] PHP Fatal error:  Call to undefined function  resolveurl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[01-Jan-2015 18:02:27] PHP Fatal error:  Call to undefined function  resolveurl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[11-Mar-2015 03:43:38 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[11-Mar-2015 03:43:38 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[20-Mar-2015 17:54:04 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[20-Mar-2015 17:54:04 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[04-Apr-2015 09:23:38 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[04-Apr-2015 09:23:38 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[19-Apr-2015 00:00:33 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[19-Apr-2015 00:00:33 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[20-Apr-2015 17:16:28 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[20-Apr-2015 17:16:28 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[11-May-2015 10:30:07 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[11-May-2015 10:30:07 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[11-May-2015 17:01:16 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[11-May-2015 17:01:16 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[11-May-2015 22:37:04 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[11-May-2015 22:37:04 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[12-May-2015 04:18:33 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[12-May-2015 04:18:33 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[12-May-2015 16:24:17 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[12-May-2015 16:24:17 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[29-May-2015 15:03:47 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[29-May-2015 15:03:47 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[15-Jun-2015 18:15:59 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[15-Jun-2015 18:15:59 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[16-Jun-2015 04:04:20 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[16-Jun-2015 04:04:20 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[16-Jun-2015 14:15:25 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[16-Jun-2015 14:15:25 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[21-Jul-2015 18:06:41 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[21-Jul-2015 18:06:42 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[22-Jul-2015 01:03:03 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[22-Jul-2015 01:03:03 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[22-Jul-2015 06:56:42 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[22-Jul-2015 06:56:42 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[22-Jul-2015 12:20:32 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[22-Jul-2015 12:20:32 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[23-Jul-2015 00:46:52 America/Caracas] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[23-Jul-2015 00:46:52 America/Caracas] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[19-Aug-2016 08:21:22 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[19-Aug-2016 08:21:22 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[19-Aug-2016 14:12:45 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[19-Aug-2016 14:12:45 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[19-Aug-2016 21:30:15 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[19-Aug-2016 21:30:15 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[20-Aug-2016 01:02:05 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[20-Aug-2016 01:02:05 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[20-Aug-2016 03:58:08 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[20-Aug-2016 03:58:08 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[20-Aug-2016 09:07:11 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[20-Aug-2016 09:07:11 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[13-Sep-2016 14:15:43 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[13-Sep-2016 14:15:43 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[13-Sep-2016 21:26:34 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[13-Sep-2016 21:26:34 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[14-Sep-2016 02:36:06 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[14-Sep-2016 02:36:06 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[14-Sep-2016 03:23:35 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[14-Sep-2016 03:23:35 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[14-Sep-2016 09:20:04 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[14-Sep-2016 09:20:04 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[14-Sep-2016 09:20:17 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[14-Sep-2016 09:20:17 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[14-Sep-2016 15:00:05 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[14-Sep-2016 15:00:05 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[14-Sep-2016 15:03:32 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[14-Sep-2016 15:03:32 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[14-Sep-2016 21:17:04 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[14-Sep-2016 21:17:04 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[15-Sep-2016 03:41:55 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[15-Sep-2016 03:41:55 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[17-Sep-2016 20:32:50 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[17-Sep-2016 20:32:50 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[17-Sep-2016 20:58:41 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[17-Sep-2016 20:58:41 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[17-Sep-2016 21:23:02 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[17-Sep-2016 21:23:02 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[18-Sep-2016 03:06:02 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[18-Sep-2016 03:06:02 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[18-Sep-2016 03:06:15 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[18-Sep-2016 03:06:15 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[18-Sep-2016 03:06:32 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[18-Sep-2016 03:06:32 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[18-Sep-2016 11:01:45 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[18-Sep-2016 11:01:45 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[18-Sep-2016 11:01:55 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[18-Sep-2016 11:01:55 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[18-Sep-2016 11:02:05 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[18-Sep-2016 11:02:05 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[18-Sep-2016 19:12:20 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[18-Sep-2016 19:12:21 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[18-Sep-2016 19:12:31 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[18-Sep-2016 19:12:31 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[18-Sep-2016 19:12:41 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[18-Sep-2016 19:12:41 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[18-Sep-2016 20:23:45 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[18-Sep-2016 20:23:45 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[18-Sep-2016 20:23:55 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[18-Sep-2016 20:23:55 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[18-Sep-2016 20:24:05 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[18-Sep-2016 20:24:05 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[26-Oct-2016 01:56:54 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[26-Oct-2016 01:56:54 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[26-Oct-2016 17:35:28 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[26-Oct-2016 17:35:28 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[26-Oct-2016 23:28:08 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[26-Oct-2016 23:28:08 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[31-Oct-2016 03:00:01 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[31-Oct-2016 03:00:01 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[31-Oct-2016 09:06:08 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[31-Oct-2016 09:06:08 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[31-Oct-2016 15:37:22 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[31-Oct-2016 15:37:22 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[31-Oct-2016 22:36:30 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[31-Oct-2016 22:36:30 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[01-Nov-2016 01:11:02 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[01-Nov-2016 01:11:02 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[25-Dec-2016 16:21:53 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[25-Dec-2016 16:21:53 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[26-Dec-2016 00:37:38 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[26-Dec-2016 00:37:38 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[26-Dec-2016 06:57:08 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[26-Dec-2016 06:57:08 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[26-Dec-2016 12:32:14 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[26-Dec-2016 12:32:14 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[27-Dec-2016 00:11:16 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[27-Dec-2016 00:11:16 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[27-Dec-2016 07:08:18 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[27-Dec-2016 07:08:18 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[27-Dec-2016 13:38:12 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[27-Dec-2016 13:38:12 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[27-Dec-2016 15:39:33 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[27-Dec-2016 15:39:33 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[27-Dec-2016 21:42:31 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[27-Dec-2016 21:42:31 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
+[13-Jan-2017 23:56:04 UTC] PHP Notice:  Undefined index: Folder in /home/fondoint/public_html/scripts/ckfinder/config.php on line 74
+[13-Jan-2017 23:56:04 UTC] PHP Fatal error:  Call to undefined function resolveUrl() in /home/fondoint/public_html/scripts/ckfinder/config.php on line 93
