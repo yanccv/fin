@@ -5,7 +5,7 @@ $bd->dbConectar();
 if (strcmp($_SERVER['SERVER_NAME'], 'www.fondointeractivodenegocios.com.ve') == 0) {
     $IdArea="Conexión";
 } else {
-    $IdArea="ConexiÃ³n";
+    $IdArea="Conexión";
 }
 $ConArea=$bd->dbConsultar("select * from areas where area=?", array($IdArea));
 
@@ -54,6 +54,9 @@ if (!$bd->Error) {
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Fondo Interactivo de Negocios</title>
 <!--Archivos CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="../css/styletabs.css" />
+
     <link href="../css/estructura.css" rel="stylesheet" type="text/css" />
     <!--Estilos de los Banner Animados-->
     <link rel="stylesheet" href="../slider/css/theme-metallic.css" />
@@ -83,6 +86,8 @@ if (!$bd->Error) {
 
     <!-- Controlador de Eventos -->
     <script type="text/javascript" src="../scripts/jquery/fcliente.js" ></script>
+
+    <script type="text/javascript" src="../scripts/tabs/modernizr.custom.04022.js"></script>
 
     <!-- Configuracion de Slider Rotativo-->
    	<script type="text/javascript">
@@ -130,11 +135,11 @@ if (!$bd->Error) {
         <div id="slider">
             <ul id="slider1">
         <?php
-                for ($i=0;$i<count($banners);$i++) {
-                    if ((!empty($banners[$i])) && is_file($banners[$i])) {
-                        echo "<li><img src='".$banners[$i]."' alt='".$IdArea."'></li>\n";
-                    }
-                }
+        for ($i=0; $i<count($banners); $i++) {
+            if ((!empty($banners[$i])) && is_file($banners[$i])) {
+                echo "<li><img src='".$banners[$i]."' alt='".$IdArea."'></li>\n";
+            }
+        }
         ?>
             </ul>
         </div>
@@ -175,12 +180,13 @@ if (!$bd->Error) {
                     <div class="CampoCorto"><?php echo $FInvita['pais']; ?></div>
                     <br />
                     <?php
-                        $MinMoneda=($FInvita['minimoap']*$FInvita['cambio'])-$Depositado['monto'];
-            $MinBase  =$FInvita['minimoap']-$Depositado['montobase'];
-            if ($MinMoneda<0) {
-                $MinMoneda=0;
-                $MinBase=0;
-            } ?>
+                    $MinMoneda=($FInvita['minimoap']*$FInvita['cambio'])-$Depositado['monto'];
+                    $MinBase  =$FInvita['minimoap']-$Depositado['montobase'];
+                    if ($MinMoneda<0) {
+                        $MinMoneda=0;
+                        $MinBase=0;
+                    }
+                    ?>
                     <div class="EtiquetaLarga">Monto Minimo en <?php echo $FInvita['moneda']; ?>: </div>
                     <div class="CampoCorto"><?php echo number_format($FInvita['minimoap']*$FInvita['cambio'], 2, ",", "."); ?></div>
                     <div class="EtiquetaLarga">Monto Minimo en <?php echo $FConfig['moneda']; ?>: </div>
@@ -197,54 +203,140 @@ if (!$bd->Error) {
                     <div class="CampoCorto"><?php echo number_format($MinBase, 2, ",", "."); ?></div><br />
                     <div class="Limpiador"></div>
                 </div>
-                <div class="CampoCompleto">
-                    <div class="Etiqueta">Banco/Servicio: </div>
-                    <div class="CampoMedio">
-                    <?php
-                        echo $bd->dbComboSimple("select b.id,b.banco from bancos as b inner join cuentas as c on c.banco=b.id and c.estado='A' where b.estado='A' and (b.pais=? or b.pais is null) and c.cliente is null", array($FInvita['idpais']), "CBanco", 0, array(1), null);
-                        //echo $bd->getSql();
-                    ?>
+                <section class="tabs">
+                    <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
+                    <label for="tab-1" class="tab-label-1">Pago con Deposito o Transferencia</label>
+                    <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
+                    <label for="tab-2" class="tab-label-2">Pago con Tarjeta de Credito o Paypal</label>
+                    <div class="clear-shadow"></div>
+                    <div class="content">
+                        <div class="content-1">
+                            <fieldset>
+                                <legend>Datos del Deposito o Transferencia</legend>
+                                <div class="CampoCompleto">
+                                    <div class="EtiquetaLarga">Banco/Servicio: </div>
+                                    <div class="CampoLargo">
+                                        <?php
+                                        echo $bd->dbComboSimple("select b.id,b.banco from bancos as b inner join cuentas as c on c.banco=b.id and c.estado='A' where b.estado='A' and (b.pais=? or b.pais is null) and c.cliente is null", array($FInvita['idpais']), "CBanco", 0, array(1), null);
+                                        ?>
+                                    </div>
+                                    <div class="Limpiador"></div>
+                                </div>
+                                <div class="CampoCompleto">
+                                    <div class="EtiquetaLarga">Cuenta: </div>
+                                    <div class="CampoLargo">
+                                        <select id="Cuenta" name="Cuenta"><option value="0">Seleccione Banco</option></select>
+                                    </div>
+                                    <div class="Limpiador"></div>
+                                </div>
+                                <div class="CampoCompleto">
+                                    <div class="EtiquetaLarga">Nro de Deposito o Referencia: </div>
+                                    <div class="CampoMedio">
+                                        <input type="text" id="nroref" name="nroref" maxlength="15" size="20" />
+                                    </div>
+                                    <div class="Limpiador"></div>
+                                </div>
+                                <div class="CampoCompleto">
+                                    <div class="EtiquetaLarga">Fecha: </div>
+                                    <div class="CampoCorto"><input type="text" id="fecha" tipo='fechahora' name="fecha" maxlength="10" size="15" /></div>
+                                    <div class="Limpiador"></div>
+                                </div>
+                                <div class="CampoCompleto">
+                                    <div class="EtiquetaLarga">Monto en <?php echo $FInvita['moneda']; ?>: </div>
+                                    <div class="CampoCorto">
+                                        <input type="text" id="MontoDep" name="MontoDep" maxlength="15" size="15" />
+                                        <input type="hidden" id="MonBase" name="MonBase" readonly="true" value="0.00"/>
+                                        <input type="hidden" id="cambio" name="cambio" readonly="true" value="<?php echo $FInvita['cambio']; ?>"/>
+                                        <input type="hidden" id="MonMinimo" name="MonMinimo" readonly="true" value="<?php echo $FInvita['minimoap']; ?>"/>
+                                    </div>
+                                    <div class="Limpiador"></div>
+                                </div>
+                                <div class="CampoCompleto">
+                                    <div class="EtiquetaLarga">Monto en <?php echo $FConfig['moneda']; ?>: </div>
+                                    <div class="CampoCorto" id="MontoBase">0.00</div>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="content-2">
+                            <fieldset>
+                                <legend>Datos de la Tarjeta de Credito</legend>
+                                <div class="CampoCompleto">
+                                    <div class="Etiqueta">Tipo: </div>
+                                    <div class="CampoLargo">
+                                        <input type="radio" id="typeCard_1" name="typeCard" value="Visa" />Visa
+                                        <input type="radio" id="typeCard_2" name="typeCard" value="Master Card" />Master Card
+                                        <input type="radio" id="typeCard_3" name="typeCard" value="American Express" />American Express
+                                    </div>
+                                </div>
+                                <div class="CampoCompleto">
+                                    <div class="Etiqueta">Nombre: </div>
+                                    <div class="CampoLargo">
+                                        <input type="text" id="nomCard" name="nomCard" maxlength="40" size="40" />
+                                    </div>
+                                    <div class="Limpiador"></div>
+                                </div>
+                                <div class="CampoCompleto">
+                                    <div class="Etiqueta">Numero: </div>
+                                    <div class="CampoLargo">
+                                        <input type="text" id="numCard" name="numCard" maxlength="20" size="40" />
+                                    </div>
+                                    <div class="Limpiador"></div>
+                                </div>
+                                <div class="CampoCompleto">
+                                    <div class="Etiqueta">Fecha de Expiracion: </div>
+                                    <div class="EtiquetaCorta">Mes: </div>
+                                    <div class="CampoCorto">
+                                        <select id='mDateCard' name="mDateCard">
+                                            <<option value="0" selected="selected">Seleccion</option>
+                                            <<option value="1">Enero</option>
+                                            <<option value="2">Febrero</option>
+                                            <<option value="3">Marzo</option>
+                                            <<option value="4">Abril</option>
+                                            <<option value="5">Mayo</option>
+                                            <<option value="6">Junio</option>
+                                            <<option value="7">Julio</option>
+                                            <<option value="8">Agosto</option>
+                                            <<option value="9">Septiembre</option>
+                                            <<option value="10">Octubre</option>
+                                            <<option value="11">Noviembre</option>
+                                            <<option value="12">Diciembre</option>
+                                        </select>
+                                    </div>
+                                    <div class="EtiquetaCorta">Año: </div>
+                                    <div class="CampoCorto">
+                                        <select id="yDateCard" name="yDateCard">
+                                            <<option value="0" selected="selected">Seleccion</option>
+                                            <?php
+                                            for ($i=date('Y'); $i< date('Y')+10; $i++) {
+                                                echo "<option value='{$i}'>{$i}</option>";
+                                            }
+                                            ?>
+                                        </select>
+                                    </div>
+                                    <div class="Limpiador"></div>
+                                </div>
+                                <div class="CampoCompleto">
+                                    <div class="Etiqueta">Codigo de Seguridad: </div>
+                                    <div class="CampoCorto">
+                                        <input type="password" id="security" name="security" maxlength="4" size="4" />
+                                    </div>
+                                    <div class="Limpiador"></div>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Pago con Cuenta Paypal</legend>
+                                <div class="CampoCompleto">
+                                    <div class="Etiqueta">
+                                        <a href='../paypal/src/paypalRequest.php?id=<?php echo $FInvita['cedula']; ?>&pay=<?php echo $FInvita['minimoap']; ?>'>
+                                            <img src="../imagenes/paypal.png" border='0'\>
+                                        </a>
+                                    </div>
+                                    <div class="Limpiador"></div>
+                                </div>
+                            </fieldset>
+                        </div>
                     </div>
-                    <div class="Etiqueta">Cuenta: </div>
-                    <div class="CampoCorto">
-                        <select id="Cuenta" name="Cuenta"><option value="0">Seleccione Banco</option></select>
-                    </div>
-                    <div class="Limpiador"></div>
-                </div>
-                <div class="CampoCompleto">
-                    <div class="EtiquetaLarga">Nro de Deposito o Referencia: </div>
-                    <div class="CampoCorto">
-                        <input type="text" id="nroref" name="nroref" maxlength="15" size="20" />
-                    </div>
-                    <div class="Limpiador"></div>
-                </div>
-                <div class="CampoCompleto">
-                    <div class="Etiqueta">Monto en <?php echo $FInvita['moneda']; ?>: </div>
-                    <div class="CampoCorto">
-                        <input type="text" id="MontoDep" name="MontoDep" maxlength="15" size="15" />
-                        <input type="hidden" id="MonBase" name="MonBase" readonly="true" value="0.00"/>
-                        <input type="hidden" id="cambio" name="cambio" readonly="true" value="<?php echo $FInvita['cambio']; ?>"/>
-
-                        <input type="hidden" id="MonMinimo" name="MonMinimo" readonly="true" value="<?php echo $FInvita['minimoap']; ?>"/>
-                    </div>
-                    <div class="EtiquetaLarga">Monto en <?php echo $FConfig['moneda']; ?>: </div>
-                    <div class="CampoCorto" id="MontoBase">0.00</div>
-
-
-<!--                    <div class="EtiquetaCorta">: </div>-->
-                    <div class="Limpiador"></div>
-                </div>
-                <div class="CampoCompleto">
-                    <div class="Etiqueta">Fecha: </div>
-                    <div class="CampoCorto"><input type="text" id="fecha" tipo='fechahora' name="fecha" maxlength="10" size="15" /></div>
-                    <div class="Etiqueta">
-                        <a href='../paypal/src/paypalRequest.php?id=<?php echo $FInvita['cedula']; ?>&pay=<?php echo $FInvita['minimoap']; ?>'>
-                            <img src="../imagenes/paypal.png" border='0'\>
-                        </a>
-                    </div>
-                    <div class="Limpiador"></div>
-
-                </div>
+                </section>
                 <div class="CampoCompleto">
                     <div class="FormDerechos">
                         <input type="hidden" id="idform" name="idform" value="RFPInicial"/>
@@ -260,7 +352,6 @@ if (!$bd->Error) {
                     <center><strong>NOTA: Hoy <?php echo date("d/m/Y"); ?>, El Cambio esta 1 <?php echo $FConfig['moneda']; ?> = <?php echo $FInvita['cambio']; ?> <?php echo $FInvita['moneda']; ?></strong></center>
                     <div class="Limpiador"></div>
                 </div>
-
                 <div class="CampoCompleto">
                     <div class="FormFin">
                         <input type="submit" id="Enviar" name="Enviar" value="Activar Participaci&oacute;n" />
@@ -269,7 +360,6 @@ if (!$bd->Error) {
                      </div>
                     <div class="Limpiador"></div>
                 </div>
-
             </form>
         </div>
         <div id="info"></div>
