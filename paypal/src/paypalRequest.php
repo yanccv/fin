@@ -8,113 +8,101 @@ use PayPal\Api\Amount;
 use PayPal\Api\Transaction;
 use PayPal\Api\Payment;
 use PayPal\Api\RedirectUrls;
+use PayPal\Api\FundingInstrument;
+use PayPal\Api\PaymentCard;
 
 require 'startPay.php';
+include("../../includes/classdb.php");
 /*
-require 'startPay.php';
+$card = new PaymentCard();
+$card->setType("visa")
+    ->setNumber("4669424246660779")
+    ->setExpireMonth("11")
+    ->setExpireYear("2019")
+    ->setCvv2("012")
+    ->setFirstName("Jo  e")
+    ->setBillingCountry("US")
+    ->setLastName("Shopper");
 
-$payer = new Payer();
-$details = new Details();
-$amount = new Amount();
-$transaction = new Transaction();
-$payment = new Payment();
-$redirectUrls = new RedirectUrls();
-
-//Payer
-$payer->setPaymentMethod('paypal');
-
-//Details
-$details->setShipping('2.00')
-    ->setTax('0.00')
-    ->setSubTotal('22.00');
-
-//Amount
-$amount->setCurrency('USD')
-    ->setTotal('22.00')
-    ->setDetails($details);
-
-$transaction->setAmount($amount)
-    ->setDescription('Afiliacion a la Franquicia');
-
-$payment->setIntent('sale')
-    ->setPayer($payer)
-    ->setTransactions([$transaction]);
-
-$redirectUrls->setReturnUrl('http://finweb/paginas/paypalResult.php')
-    ->setCancelUrl('http://finweb/paginas/paypalResult.php');
-
-$payment->setRedirectUrls($redirectUrls);
-
-try {
-    $payment->create($api);
-    //Gurdar datos de la peticion
-} catch (PPConnectionException $e) {
-    //Se Genero un Error
-    header('http://finweb/paginas/paypalResult.php?error=1');
-}
-
-foreach ($payment->getLinks as $link) {
-    if ($link->getRel() == 'aproval_url') {
-        $redirecUrl = $link->getHref();
-    }
-}
-
-header('location: '.$redirecUrl);
+$fi = new FundingInstrument();
+$fi->setPaymentCard($card);
 */
 
 $payer = new Payer();
 $payer->setPaymentMethod("paypal");
 
-$item1 = new Item();
-$item1->setName('Ground Coffee 40 oz')
-    ->setCurrency('USD')
-    ->setQuantity(1)
-    ->setSku("123123") // Similar to `item_number` in Classic API
-    ->setPrice(7.5);
-$item2 = new Item();
-$item2->setName('Granola bars')
-    ->setCurrency('USD')
-    ->setQuantity(5)
-    ->setSku("321321") // Similar to `item_number` in Classic API
-    ->setPrice(2);
+
+$bd = new dbMysql();
+$bd->dbConectar();
+
+$items = array();
+switch ($_GET['idform']) {
+    case 'Activar':
+        $id = (string) $_GET['id'];
+        $ConInvita=$bd->dbConsultar("select c.minimoap monto from clientes as c inner join paises as p on c.pais=p.id inner join monedas as m on p.monedaoficial=m.id where c.cedula=? limit 1", array($id));
+        if ($bd->Error) {
+            echo $bd->MsgError;
+            exit();
+        }
+
+        $RowInvita = $ConInvita->fetch_object();
+
+        $item1 = new Item();
+        $item1->setName('Activacion en la Franquicia de Participacion')
+            ->setCurrency('USD')
+            ->setQuantity(1)
+            ->setSku("000001") // Similar to `item_number` in Classic API
+            ->setPrice($RowInvita->monto);
+        array_push($items, $item1);
+        break;
+    default:
+        die('Acceso Invalido');
+        break;
+}
 
 $itemList = new ItemList();
-$itemList->setItems(array($item1, $item2));
+$itemList->setItems($items);
 
 $details = new Details();
-$details->setShipping(1.2)
-    ->setTax(1.3)
-    ->setSubtotal(17.50);
+$details->setShipping(0)
+    ->setTax(0)
+    ->setSubtotal($RowInvita->monto);
 
 $amount = new Amount();
 $amount->setCurrency("USD")
-    ->setTotal(20)
+    ->setTotal($RowInvita->monto)
     ->setDetails($details);
 
 $transaction = new Transaction();
 $transaction->setAmount($amount)
     ->setItemList($itemList)
-    ->setDescription("Payment description")
+    ->setDescription("Pago de Activacion ")
     ->setInvoiceNumber(uniqid());
 
 //$baseUrl = getBaseUrl();
 $redirectUrls = new RedirectUrls();
-$redirectUrls->setReturnUrl('http://finweb/paginas/paypalResult.php')
-    ->setCancelUrl('http://finweb/paginas/paypalResult.php');
+$redirectUrls->setReturnUrl('http://'.$_SERVER['SERVER_NAME']."/paginas/paypalResult.php?aproved=true&id={$id}&idform={$_GET['idform']}")
+    ->setCancelUrl('http://'.$_SERVER['SERVER_NAME']."paginas/paypalResult.php?aproved=false&id={$id}&idform={$_GET['idform']}");
 
 $payment = new Payment();
 $payment->setIntent("sale")
     ->setPayer($payer)
-    ->setRedirectUrls($redirectUrls)
-    ->setTransactions(array($transaction));
+    ->setTransactions([$transaction])
+    ->setRedirectUrls($redirectUrls);
 
 try {
     $payment->create($api);
     //Gurdar datos de la peticion
 } catch (PPConnectionException $e) {
     //Se Genero un Error
-    header('http://finweb/paginas/paypalResult.php?error=1');
+    header('http://'.$_SERVER['SERVER_NAME'].'/paginas/paypalResult.php?error=1');
 }
-
+//echo '<pre>';
+foreach ($payment->getLinks() as $key => $link) {
+    if ($link->getRel() == 'approval_url') {
+        $redirectUrl = $link->getHref();
+    }
+}
+//header('Location: '.$redirectUrl);
 $approvalUrl = $payment->getApprovalLink();
 header('location: '.$approvalUrl);

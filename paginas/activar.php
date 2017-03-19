@@ -204,9 +204,9 @@ if (!$bd->Error) {
                     <div class="Limpiador"></div>
                 </div>
                 <section class="tabs">
-                    <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
+                    <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" value="1" checked="checked" />
                     <label for="tab-1" class="tab-label-1">Pago con Deposito o Transferencia</label>
-                    <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
+                    <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" value="2"/>
                     <label for="tab-2" class="tab-label-2">Pago con Tarjeta de Credito o Paypal</label>
                     <div class="clear-shadow"></div>
                     <div class="content">
@@ -327,7 +327,7 @@ if (!$bd->Error) {
                                 <legend>Pago con Cuenta Paypal</legend>
                                 <div class="CampoCompleto">
                                     <div class="Etiqueta">
-                                        <a href='../paypal/src/paypalRequest.php?id=<?php echo $FInvita['cedula']; ?>&pay=<?php echo $FInvita['minimoap']; ?>'>
+                                        <a href='../paypal/src/paypalRequest.php?id=<?php echo $FInvita['cedula']; ?>&idform=Activar'>
                                             <img src="../imagenes/paypal.png" border='0'\>
                                         </a>
                                     </div>

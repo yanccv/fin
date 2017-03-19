@@ -35,7 +35,7 @@ $(document).ready(function() {
   			       $('input[type=submit]').removeAttr('disabled');
                }
   		   });
-        }else{
+        } else {
             var formData = new FormData($("#fdatos")[0]);
 	       	$.ajax({
 	       	    url:  $(this).attr('action'),
@@ -110,6 +110,25 @@ $(document).ready(function() {
          }
       });
     });
+
+    $("input[name='radio-set']").on('click', function (){
+        if ($(this).attr('id')=='tab-2') {
+            $("#CBanco").val('0');
+            $("#Cuenta option").remove();
+            $("#Cuenta").append('<option>Seleccione Banco</option>');
+            $("#nroref").val('');
+            $("#fecha").val('');
+            $("#MontoDep").val(0);
+            $("#MontoBase").text('0.00');
+        } else if($(this).attr('id')=='tab-1') {
+            $("#nomCard").val('');
+            $("#numCard").val('');
+            $("#mDateCard").val(0);
+            $("#yDateCard").val(0);
+            $("input[name='typeCard']").removeAttr('checked', false);
+            $("#security").val('');
+        }
+    })
 
 /*
     $('#MontoDep').keyup(function (){

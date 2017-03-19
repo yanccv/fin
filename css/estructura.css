@@ -18,6 +18,12 @@ p{
 h2{
  margin-top:20px;
 }
+
+fieldset {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*
 #Cuerpo > div,#FormLogin{
   -moz-border-radius: 5px 5px 5px 5px;
@@ -385,14 +391,10 @@ div.ItemAutor{
 }
 */
 .Listados{
-  /*width: 550px;*/
   margin:auto;
-  /*background-color: #00FFFF;*/
 }
 
 .CampoCompleto{
-  /*height: 30px;*/
-  /*background-color: #33CC00;*/
   padding: 3px;
 }
 .CampoCompletoError{

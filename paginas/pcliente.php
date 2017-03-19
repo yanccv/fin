@@ -1,4 +1,13 @@
 <?php
+use PayPal\Api\Payer;
+use PayPal\Api\Details;
+use PayPal\Api\Item;
+use PayPal\Api\ItemList;
+use PayPal\Api\Amount;
+use PayPal\Api\Transaction;
+use PayPal\Api\Payment;
+use PayPal\Api\RedirectUrls;
+
 session_start();
 //print_r($_POST);
 //print_r($_FILES);
@@ -12,6 +21,7 @@ include("../includes/funcion.php");
 include("../includes/classvd.php");
 include("../includes/classdb.php");
 include("../includes/fmails.php");
+include("../paypal/src/startPay.php");
 
 
 /*
@@ -228,6 +238,7 @@ switch ($_POST['idform']) {
         }
         break;
     case "RFPCActivar":
+
         /*Busco a Ver si el deposito ya se encuentra registrado */
         $ConDepositos=$bd->dbConsultar("select * from movimientos where cuenta=? and referencia=? and movimiento='Deposito' and monto_oficial=?", array($_POST['Cuenta'], $_POST['nroref'], $_POST['MontoDep']));
         if (!$bd->Error) {
@@ -297,7 +308,7 @@ switch ($_POST['idform']) {
         $formato="activacion";
         if (empty($errores)) {
             /* Busqueda del banco */
-           $ConBanco=$bd->dbConsultar("select b.banco,c.cuenta from cuentas as c inner join bancos as b on (b.id=c.banco) where c.id=? limit 1", array($_POST['Cuenta']));
+            $ConBanco=$bd->dbConsultar("select b.banco,c.cuenta from cuentas as c inner join bancos as b on (b.id=c.banco) where c.id=? limit 1", array($_POST['Cuenta']));
             if (!$bd->Error) {
                 if ($ConBanco->num_rows<=0) {
                     $errores[]="Disculpe Banco Seleccionado No Registrado";
@@ -341,7 +352,7 @@ switch ($_POST['idform']) {
         } else {
             $msg['men']=$bd->MsgError;
         }
-    break;
+        break;
 
     default:
         $msg['men']="Seccion No Encontrada [".$_POST['idform']."]";
